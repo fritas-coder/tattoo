@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+  text-align: center;
+  justify-content: center;
+  height: 40em;
+  width: 100%;
+}
+
+.App-header {
+  padding-inline: 20px;
+}
+
+.logo {
+  height: 200px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: auto;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.footer-links {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer-links a {
+  color: #61dafb;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  .App {
+    padding-top: 14em;
+  }
+  .App-header {
+    padding-inline: 10px;
+    height: 26em;
+  }
+
+  .logo {
+    height: 120px;
+  }
+
+  .social-icons {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+  }
+
+  .social-icons a svg {
+    width: 40px;
+    height: 40px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+  footer {
+    padding: 15px;
+    bottom: 20;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
